@@ -6,7 +6,10 @@
         "wpackagist-plugin/jetpack": "~3.0",
         "wpackagist-plugin/wpro": "~1.0",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1.3",
-        "wpackagist-plugin/authy-two-factor-authentication": "~2.5"
+        "wpackagist-plugin/authy-two-factor-authentication": "~2.5",
+        "wpackagist-plugin/cloudflare-cache-purge": "~1.0",
+        "wpackagist-plugin/markdown-on-save-improved": "~2.5",
+        "wpackagist-plugin/wordpress-seo": "~1.5"
     },
     "repositories": [
         {
