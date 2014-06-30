@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a945eec1b56c853494f755240bcb5d34",
+    "hash": "9b169ba93964bb307dd2065b723619a9",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -264,6 +264,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/vaultpress",
+            "version": "1.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/vaultpress/",
+                "reference": "tags/1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/vaultpress": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/vaultpress/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
