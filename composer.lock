@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38936db9845806d1d12e8f0e3bab6533",
+    "hash": "ee41ee368ed1c362c35e5da985bd0785",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -268,15 +268,15 @@
         },
         {
             "name": "wpackagist-plugin/vaultpress",
-            "version": "1.6",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/vaultpress/",
-                "reference": "tags/1.6"
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.zip",
+                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -291,15 +291,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.5.3.3",
+            "version": "1.5.4.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.5.3.3"
+                "reference": "tags/1.5.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.3.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
