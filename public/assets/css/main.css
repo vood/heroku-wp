@@ -782,9 +782,10 @@ input.wpcf7-submit {
 	position: fixed;
 }
 #main {
-	width: 72%;
+	width:70.4%;
 	float:right;
 	overflow:hidden;
+	padding-right:1.6%;
 }
 #content {
 	width: 87.2%;
@@ -859,9 +860,10 @@ input.wpcf7-submit {
 	position: fixed;
 }
 #main {
-	width: 68.8%;
+	width:66.3%;
 	float:right;
 	overflow:hidden;
+	padding-right:2.5%;
 }
 #content {
 	width: 88.5%;
