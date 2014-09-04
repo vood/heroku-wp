@@ -1175,3 +1175,11 @@ pre .deletion {
 pre .tex .formula {
   background: #eee8d5;
 }
+
+#content .gist .gist-data {
+	height:300px;
+}
+
+#content .gist table tr {
+	border:none;
+}
