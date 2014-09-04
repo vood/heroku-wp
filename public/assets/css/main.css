@@ -372,14 +372,18 @@ table#wp-calendar td {
 	border-top:1px solid rgba(131, 148, 150, 0.3);
 	border-bottom:1px solid rgba(131, 148, 150, 0.3);
 }
+#content table thead tr {
+	border-top:none;
+}
+#content table tbody tr {
+	border-bottom:none;
+}
 #content table tr th {
 	text-align:left;
 	padding:10px;
-	border-top:none;
 }
 #content table tr td {
 	padding: 10px;
-	border-bottom:none;
 }
 #content img {
 	max-width: 100%;
@@ -1178,6 +1182,10 @@ pre .tex .formula {
 
 #content .gist .gist-data {
 	height:300px;
+}
+
+#content .gist table {
+	margin:0;
 }
 
 #content .gist table tr {
