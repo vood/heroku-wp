@@ -366,20 +366,20 @@ table#wp-calendar td {
 }
 #content table {
 	margin:10px 0px 30px 0px;
+	width:100%;
 }
 #content table tr {
-	border-bottom:1px solid #4C4C4C;
+	border-top:1px solid rgba(131, 148, 150, 0.3);
+	border-bottom:1px solid rgba(131, 148, 150, 0.3);
 }
 #content table tr th {
-	padding: 10px 20px 10px 20px;
-	border-top:1px solid #4C4C4C;
-	border-left:1px solid #4C4C4C;
-	border-right:1px solid #4C4C4C;
+	text-align:left;
+	padding:10px;
+	border-top:none;
 }
 #content table tr td {
-	padding: 10px 20px 10px 20px;
-	border-left:1px solid #4C4C4C;
-	border-right:1px solid #4C4C4C;
+	padding: 10px;
+	border-bottom:none;
 }
 #content img {
 	max-width: 100%;
