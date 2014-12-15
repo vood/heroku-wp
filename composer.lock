@@ -192,9 +192,6 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "replace": {
-                "wpackagist/cloudflare-cache-purge": "self.version"
-            },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/cloudflare-cache-purge/"
         },
@@ -240,23 +237,20 @@
         },
         {
             "name": "wpackagist-plugin/vaultpress",
-            "version": "1.6.7",
+            "version": "1.6.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/vaultpress/",
-                "reference": "tags/1.6.7"
+                "reference": "tags/1.6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.7.zip",
+                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.8.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/vaultpress": "self.version"
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/vaultpress/"
@@ -277,9 +271,6 @@
             },
             "require": {
                 "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/wordpress-seo": "self.version"
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/wordpress-seo/"
