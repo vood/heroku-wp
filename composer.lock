@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc0e42ba438a558a5de09889624b09df",
+    "hash": "ba6d0e69c8cbbd03856abd9ed420a779",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -15,10 +15,7 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "fancyguy/webroot-installer": "~1.1"
-            },
-            "type": "webroot"
+            "type": "library"
         },
         {
             "name": "composer/installers",
@@ -114,48 +111,6 @@
             "time": "2014-11-29 01:29:17"
         },
         {
-            "name": "fancyguy/webroot-installer",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fancyguy/webroot-installer.git",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "shasum": ""
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "composer-installer",
-            "extra": {
-                "class": "FancyGuy\\Composer\\WebrootInstaller"
-            },
-            "autoload": {
-                "psr-0": {
-                    "FancyGuy\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Steve Buzonas",
-                    "email": "steve@fancyguy.com",
-                    "homepage": "http://www.stevebuzonas.com"
-                }
-            ],
-            "description": "A composer installer for libraries that live in an application webroot.",
-            "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
-        },
-        {
             "name": "wpackagist-plugin/authy-two-factor-authentication",
             "version": "2.5.4",
             "source": {
@@ -173,7 +128,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/authy-two-factor-authentication/"
+            "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
         },
         {
             "name": "wpackagist-plugin/cloudflare-cache-purge",
@@ -193,7 +148,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/cloudflare-cache-purge/"
+            "homepage": "https://wordpress.org/plugins/cloudflare-cache-purge/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -213,7 +168,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/jetpack/"
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
@@ -233,19 +188,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         },
         {
             "name": "wpackagist-plugin/vaultpress",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/vaultpress/",
-                "reference": "tags/1.6.8"
+                "reference": "tags/1.6.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.8.zip",
+                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -253,7 +208,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/vaultpress/"
+            "homepage": "https://wordpress.org/plugins/vaultpress/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
@@ -273,7 +228,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wordpress-seo/"
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wpro",
@@ -293,7 +248,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wpro/"
+            "homepage": "https://wordpress.org/plugins/wpro/"
         }
     ],
     "packages-dev": [],
