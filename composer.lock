@@ -4,14 +4,14 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ba6d0e69c8cbbd03856abd9ed420a779",
+    "hash": "397600a48e5db4e905f8c6f3f3e1e1bb",
     "packages": [
         {
             "name": "WordPress/WordPress",
-            "version": "4.1",
+            "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -19,16 +19,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.19",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
             },
             "replace": {
@@ -70,9 +70,11 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
+                "aimeos",
                 "annotatecms",
                 "bitrix",
                 "cakephp",
@@ -108,19 +110,19 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-11-29 01:29:17"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "wpackagist-plugin/authy-two-factor-authentication",
-            "version": "2.5.4",
+            "version": "2.5.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/authy-two-factor-authentication/",
-                "reference": "tags/2.5.4"
+                "reference": "tags/2.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/authy-two-factor-authentication.2.5.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/authy-two-factor-authentication.2.5.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -132,7 +134,7 @@
         },
         {
             "name": "wpackagist-plugin/cloudflare-cache-purge",
-            "version": "1.0.7",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/cloudflare-cache-purge/",
@@ -140,7 +142,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/cloudflare-cache-purge.zip",
+                "url": "https://downloads.wordpress.org/plugin/cloudflare-cache-purge.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -152,15 +154,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.3",
+            "version": "3.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.3"
+                "reference": "tags/3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -172,7 +174,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.4.6",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -180,7 +182,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -192,15 +194,15 @@
         },
         {
             "name": "wpackagist-plugin/vaultpress",
-            "version": "1.6.9",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/vaultpress/",
-                "reference": "tags/1.6.9"
+                "reference": "tags/1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/vaultpress.1.6.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/vaultpress.1.7.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -212,15 +214,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.7.1",
+            "version": "1.7.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.1.7.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -240,7 +242,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wpro.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wpro.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
