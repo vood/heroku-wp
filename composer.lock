@@ -134,7 +134,7 @@
         },
         {
             "name": "wpackagist-plugin/cloudflare-cache-purge",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/cloudflare-cache-purge/",
@@ -194,15 +194,15 @@
         },
         {
             "name": "wpackagist-plugin/vaultpress",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/vaultpress/",
-                "reference": "tags/1.7.0"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/vaultpress.1.7.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/vaultpress.1.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
