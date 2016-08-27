@@ -124,7 +124,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:vood/wordpress-astra-theme.git",
+                "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-astra-theme.git",
                 "reference": "92f0629c3bb8fd415dc91b0b06107f47b8a9554a"
             },
             "dist": {
