@@ -232,6 +232,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "hhvm": "~3.2"
+     },
     "platform-dev": []
 }
