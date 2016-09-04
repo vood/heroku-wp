@@ -8,7 +8,7 @@
         "wpackagist-plugin/wpro": "~1",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
-        "vood/wordpress-astra-theme": "master@dev"
+        "vood/wordpress-zephyr-theme": "master@dev"
     },
     "repositories": [
         {
@@ -24,7 +24,7 @@
         },
         {  
             "type": "vcs",
-            "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-astra-theme.git"
+            "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-zephyr-theme.git"
         },
         {
             "type":"composer",
