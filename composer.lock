@@ -120,17 +120,17 @@
             "time": "2016-07-05 06:18:20"
         },
         {
-            "name": "vood/wordpress-astra-theme",
+            "name": "vood/wordpress-zephyr-theme",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-astra-theme.git",
-                "reference": "92f0629c3bb8fd415dc91b0b06107f47b8a9554a"
+                "reference": "1d236af7dbe84fda3f1c8a8a077258431f655f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vood/wordpress-astra-theme/zipball/92f0629c3bb8fd415dc91b0b06107f47b8a9554a",
-                "reference": "92f0629c3bb8fd415dc91b0b06107f47b8a9554a",
+                "url": "https://api.github.com/repos/vood/wordpress-zephyr-theme/zipball/1d236af7dbe84fda3f1c8a8a077258431f655f2e",
+                "reference": "1d236af7dbe84fda3f1c8a8a077258431f655f2e",
                 "shasum": ""
             },
             "require": {
