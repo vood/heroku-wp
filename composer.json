@@ -9,7 +9,8 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
         "vood/wordpress-theme-zephyr": "master@dev",
-        "vood/wordpress-plugin-js_composer": "master@dev"
+        "vood/wordpress-plugin-js_composer": "master@dev",
+        "vood/wordpress-plugin-ultimate_vc_addon": "master@dev"
     },
     "repositories": [
         {
@@ -23,13 +24,17 @@
                 }
             }
         },
-        {  
+        {
             "type": "vcs",
             "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-theme-zephyr.git"
         },
         {
             "type": "vcs",
             "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-plugin-js_composer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-plugin-ultimate_vc_addon.git"
         },
         {
             "type":"composer",

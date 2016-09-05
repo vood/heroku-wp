@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "318b4552150a225718798191cd779b12",
+    "hash": "869db157330d0d48a044cd0339891bbc",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -139,6 +139,20 @@
             "time": "2016-09-05 06:59:54"
         },
         {
+            "name": "vood/wordpress-plugin-ultimate_vc_addon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-plugin-ultimate_vc_addon.git",
+                "reference": "428f3721dec5462d955455e6e63a1279a89f7dcb"
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-09-05 07:24:20"
+        },
+        {
             "name": "vood/wordpress-theme-zephyr",
             "version": "dev-master",
             "source": {
@@ -238,7 +252,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "vood/wordpress-theme-zephyr": 20,
-        "vood/wordpress-plugin-js_composer": 20
+        "vood/wordpress-plugin-js_composer": 20,
+        "vood/wordpress-plugin-ultimate_vc_addon": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
