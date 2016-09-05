@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1dc7705ed5d221134d1a47a0182fc010",
+    "hash": "318b4552150a225718798191cd779b12",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -125,18 +125,32 @@
             "time": "2016-08-13 20:53:52"
         },
         {
-            "name": "vood/wordpress-zephyr-theme",
+            "name": "vood/wordpress-plugin-js_composer",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-zephyr-theme.git",
-                "reference": "1d236af7dbe84fda3f1c8a8a077258431f655f2e"
+                "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-plugin-js_composer.git",
+                "reference": "c4ed875ca4a352bdfdb69fe50e9d560c65893367"
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-09-05 06:59:54"
+        },
+        {
+            "name": "vood/wordpress-theme-zephyr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://9e2b11ba111a3b5b0e691aeeb488636fd17d379a:x-oauth-basic@github.com/vood/wordpress-theme-zephyr.git",
+                "reference": "3475767dc7512d20a3921717a8457698419b685f"
             },
             "require": {
                 "composer/installers": "*"
             },
             "type": "wordpress-theme",
-            "time": "2016-09-04 21:27:50"
+            "time": "2016-09-05 07:12:51"
         },
         {
             "name": "wpackagist-plugin/authy-two-factor-authentication",
@@ -180,7 +194,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -223,7 +237,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "vood/wordpress-zephyr-theme": 20
+        "vood/wordpress-theme-zephyr": 20,
+        "vood/wordpress-plugin-js_composer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
