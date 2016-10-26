@@ -10,7 +10,8 @@
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
         "vood/wordpress-theme-zephyr": "master@dev",
         "vood/wordpress-plugin-js_composer": "master@dev",
-        "vood/wordpress-plugin-ultimate_vc_addon": "master@dev"
+        "vood/wordpress-plugin-ultimate_vc_addon": "master@dev",
+        "wpackagist-plugin/intercom": "2.5.7"
     },
     "repositories": [
         {

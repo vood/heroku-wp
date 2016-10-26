@@ -1,17 +1,18 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "869db157330d0d48a044cd0339891bbc",
+    "hash": "69f3189754d09807c4a668778a1c202d",
+    "content-hash": "332cee642ec9a1fe1d21cadc85f7542c",
     "packages": [
         {
             "name": "WordPress/WordPress",
             "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -187,16 +188,36 @@
             "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
         },
         {
-            "name": "wpackagist-plugin/jetpack",
-            "version": "4.2.2",
+            "name": "wpackagist-plugin/intercom",
+            "version": "2.5.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.2.2"
+                "url": "https://plugins.svn.wordpress.org/intercom/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/intercom.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/intercom/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "4.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/4.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -208,7 +229,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.9.5",
+            "version": "1.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -258,7 +279,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "hhvm": "~3.2"
+        "hhvm": "~3.2"  
     },
     "platform-dev": []
 }
