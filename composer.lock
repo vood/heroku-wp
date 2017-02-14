@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69f3189754d09807c4a668778a1c202d",
-    "content-hash": "332cee642ec9a1fe1d21cadc85f7542c",
+    "hash": "425b87984330e43e2af6c70641ff94b7",
+    "content-hash": "fccf4dbbd6093f8a37866460cee39ccb",
     "packages": [
         {
             "name": "WordPress/WordPress",
-            "version": "4.6.1",
+            "version": "4.7.2",
             "dist": {
                 "type": "zip",
                 "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
@@ -209,15 +209,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.3.2",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -229,7 +229,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.10.2",
+            "version": "1.10.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -246,6 +246,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-force-ssl",
+            "version": "1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-force-ssl/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-force-ssl.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-force-ssl/"
         },
         {
             "name": "wpackagist-plugin/wpro",
@@ -278,8 +298,6 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "hhvm": "~3.2"  
-    },
+    "platform": { "php": "7" },
     "platform-dev": []
 }

@@ -2,11 +2,13 @@
     "name": "xyu/heroku-wp",
     "description": "A template for installing and running WordPress on Heroku",
     "license": "MIT",
+    "platform": { "php": "7.0" },
     "require": {
         "WordPress/WordPress": "*",
         "wpackagist-plugin/jetpack": "~4",
         "wpackagist-plugin/wpro": "~1",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-plugin/wp-force-ssl": "~1",
+	"wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
         "vood/wordpress-theme-zephyr": "master@dev",
         "vood/wordpress-plugin-js_composer": "master@dev",
@@ -18,7 +20,7 @@
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.6.1",
+                "version": "4.7.2",
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/WordPress/WordPress/archive/4.6.zip"
